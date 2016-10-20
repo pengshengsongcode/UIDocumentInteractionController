@@ -12,6 +12,7 @@
 		8018400D1DB8A74A0069CDB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8018400B1DB8A74A0069CDB4 /* Main.storyboard */; };
 		8018400F1DB8A74A0069CDB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8018400E1DB8A74A0069CDB4 /* Assets.xcassets */; };
 		801840121DB8A74A0069CDB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 801840101DB8A74A0069CDB4 /* LaunchScreen.storyboard */; };
+		8018401A1DB8AD530069CDB4 /* Steve.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 801840191DB8AD530069CDB4 /* Steve.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		8018400E1DB8A74A0069CDB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		801840111DB8A74A0069CDB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		801840131DB8A74A0069CDB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		801840191DB8AD530069CDB4 /* Steve.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Steve.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				8018400E1DB8A74A0069CDB4 /* Assets.xcassets */,
 				801840101DB8A74A0069CDB4 /* LaunchScreen.storyboard */,
 				801840131DB8A74A0069CDB4 /* Info.plist */,
+				801840191DB8AD530069CDB4 /* Steve.pdf */,
 			);
 			path = "第三方程序打开文件";
 			sourceTree = "<group>";
@@ -96,7 +99,7 @@
 				TargetAttributes = {
 					801840031DB8A74A0069CDB4 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = XGRFCXS336;
+						DevelopmentTeam = 8QBKS6FXA6;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -124,6 +127,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8018401A1DB8AD530069CDB4 /* Steve.pdf in Resources */,
 				801840121DB8A74A0069CDB4 /* LaunchScreen.storyboard in Resources */,
 				8018400F1DB8A74A0069CDB4 /* Assets.xcassets in Resources */,
 				8018400D1DB8A74A0069CDB4 /* Main.storyboard in Resources */,
@@ -261,10 +265,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = XGRFCXS336;
+				DEVELOPMENT_TEAM = 8QBKS6FXA6;
 				INFOPLIST_FILE = "第三方程序打开文件/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "HBC.---------";
+				PRODUCT_BUNDLE_IDENTIFIER = "HBC.-------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -274,10 +278,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = XGRFCXS336;
+				DEVELOPMENT_TEAM = 8QBKS6FXA6;
 				INFOPLIST_FILE = "第三方程序打开文件/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "HBC.---------";
+				PRODUCT_BUNDLE_IDENTIFIER = "HBC.-------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
