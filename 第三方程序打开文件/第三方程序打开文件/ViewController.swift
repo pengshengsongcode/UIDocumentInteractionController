@@ -69,6 +69,7 @@ class ViewController: UIViewController {
 extension ViewController: UIDocumentInteractionControllerDelegate {
 
     //快速查看，实现此功能present界面 出现多个options  才会有快速查看，只出现两个option的还是只有两个option
+    //如果没有调用此方法，快速阅读方法失效
     func documentInteractionControllerViewControllerForPreview(_ controller: UIDocumentInteractionController) -> UIViewController {
         return self
     }
